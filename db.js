@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("mongodb://127.0.0.1:27017/myBlog", err => {
+// mongoose.connect("mongodb://127.0.0.1:27017/myBlog", err => {
+mongoose.connect("mongodb://47.99.244.227:27017/myBlog", err => {
     if (err) {
         console.log("数据库连接失败");
     } else {
